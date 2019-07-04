@@ -1,0 +1,45 @@
+{
+  "name": "eh7-p2pay-node",
+  "version": "1.0.0",
+  "description": "A base p2pay data node implementation",
+  "main": "config.js",
+  "dependencies": {
+    "@nodeutils/defaults-deep": "^1.1.0",
+    "ethereumjs-tx": "^2.0.0",
+    "ethereumjs-wallet": "^0.6.3",
+    "http-proxy": "^1.17.0",
+    "libp2p": "^0.25.4",
+    "libp2p-crypto": "^0.16.1",
+    "libp2p-kad-dht": "^0.15.2",
+    "libp2p-pnet": "^0.1.0",
+    "libp2p-railing": "^0.9.2",
+    "libp2p-secio": "^0.11.1",
+    "libp2p-spdy": "^0.13.3",
+    "libp2p-tcp": "^0.13.0",
+    "libp2p-tls": "^0.1.0",
+    "libp2p-webrtc-star": "^0.16.1",
+    "libp2p-websockets": "^0.12.2",
+    "lodash": "^4.17.11",
+    "longjohn": "^0.2.12",
+    "node-rsa": "^1.0.5",
+    "peer-id": "^0.12.2",
+    "peer-info": "^0.15.1",
+    "pull-catch": "^1.0.1",
+    "pull-stream": "^3.6.13",
+    "web3": "^1.0.0-beta.55"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eh7/eh7-p2pay-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eh7/eh7-p2pay-node/issues"
+  },
+  "homepage": "https://github.com/eh7/eh7-p2pay-node#readme"
+}
